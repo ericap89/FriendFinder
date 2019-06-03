@@ -1,5 +1,5 @@
 //create mock data for friends 
-let friend = [
+let friends = [
     {
         name:"Dave",
         photo:"",
@@ -98,4 +98,4 @@ let friend = [
     }
 ];
 
-modeule.exports = friend;
+module.exports = friends;

@@ -11,7 +11,7 @@ app.use(express.json())
 
 // Routes 
 require('./app/routing/htmlRoutes.js')(app);
-
+require("./app/routing/apiRoutes.js")(app);
 
 
 // Listen port search env first 
